@@ -1,18 +1,18 @@
 
 
-// import React from 'react';
-// import './App.css';
-// import FinancialAdvice from './FinancialAdvice';
+import React from 'react';
+import './App.css';
+import FinancialAdvice from './FinancialAdvice';
 
-// function App() {
-//     return (
-//         <div className="App">
-//             <FinancialAdvice />
-//         </div>
-//     );
-// }
+function App() {
+    return (
+        <div className="App">
+            <FinancialAdvice />
+        </div>
+    );
+}
 
-// export default App;
+export default App;
 
 
 
