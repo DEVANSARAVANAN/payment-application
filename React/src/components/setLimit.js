@@ -45,7 +45,10 @@ function SetLimit() {
       </div>
       <br></br>
       <button className="btn btn-primary" onClick={handleAddLimit}>Add Limit</button>
+      <br></br>
     </div>
+    <br></br>
+
     </>
   );
 }

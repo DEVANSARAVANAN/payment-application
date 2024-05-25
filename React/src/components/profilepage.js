@@ -42,6 +42,9 @@ function Profile() {
         </div>
       </div>
     </div>
+
+    <div><Navigation/></div>
+
 </>
   );
 }

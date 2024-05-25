@@ -25,3 +25,28 @@
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
+
+
+.navbar-nav {
+  text-align: center;
+  width: 100%;
+}
+
+.nav-item {
+  margin: 0 auto;
+}
+.btn-custom {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  color: #ffffff;
+  margin: 5px;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.btn-custom:hover {
+  background-color: #5a6268;
+  border-color: #5a6268;
+  color: #ffffff;
+}

@@ -101,31 +101,6 @@ function Home() {
     <div className="container mt-5">
     <div><AnalyticalPage/></div>
     <br></br>
-      <div className="row justify-content-center">
-        <div className="col-md-8">
-          <div className="card">
-            <div className="card-header bg-primary text-white">
-              Welcome to Your Payment App
-            </div>
-            <div className="card-body">
-              <p className="card-text">
-                This is a simple payment application that allows you to manage your transactions conveniently and securely.
-              </p>
-              <ul>
-                <li>Make payments</li>
-                <li>Set limits</li>
-                <li>Receive notifications</li>
-                <li>View transaction history</li>
-                {/* Add more features as needed */}
-              </ul>
-              <p className="card-text">
-                Get started by exploring the menu options above.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
     </div>
     </>
   );

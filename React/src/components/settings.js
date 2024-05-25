@@ -58,8 +58,12 @@ function Settings() {
            
           </div>
           <br></br>
-          <br></br>
+          
         <div className="card"><SetLimit/></div>
+        <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
 
         </div>
       </div>
