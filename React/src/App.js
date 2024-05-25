@@ -249,6 +249,9 @@ import Navigation from './components/navbar';
 import SetLimit from './components/setLimit';
 import AnalyticalPage from './components/analytics';
 import ChatbotPage from './components/chatbot';
+import Pay from './components/pay';
+import PayContact from './components/payContact';
+import Dashboard from './components/dashboard';
 
 function App() {
   return (
@@ -259,7 +262,10 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/navbar" element={<Navigation/>} />
+        <Route path="/pay" element={<Pay/>} />
+        <Route path="/payContact" element={<PayContact/>} />
         <Route path="/notification" element={<Notifications/>} />
+        <Route path="/dashboard" element={<Dashboard/>} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/setLimit" element={<SetLimit />} />
         <Route path="/analytics" element={<AnalyticalPage/>} />

@@ -201,12 +201,16 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './navbar';
+import { useNavigate } from 'react-router-dom';
+
 
 function LandingPage() {
+
+  const navigate=useNavigate();
+  
   return (
 
 <>
-    <div><Navigation/></div>
     <div className="landing-page">
       <header className="header text-center py-5">
         <div className="container">
@@ -232,8 +236,7 @@ function LandingPage() {
       <section className="cta text-center py-5">
         <div className="container">
           <h2 className="mb-4">Get Started Today!</h2>
-          <button className="btn btn-primary mr-3">Sign Up</button>
-          <button className="btn btn-secondary">Learn More</button>
+          <button className="btn btn-primary mr-3" onClick={()=>{navigate("/home")}}>Continue</button>
         </div>
       </section>
       <footer className="footer py-4">
