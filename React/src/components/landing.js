@@ -236,7 +236,7 @@ function LandingPage() {
       <section className="cta text-center py-5">
         <div className="container">
           <h2 className="mb-4">Get Started Today!</h2>
-          <button className="btn btn-primary mr-3" onClick={()=>{navigate("/home")}}>Continue</button>
+          <button className="btn btn-primary mr-3" onClick={()=>{navigate("/auth")}}>Continue</button>
         </div>
       </section>
       <footer className="footer py-4">

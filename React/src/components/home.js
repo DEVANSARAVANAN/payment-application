@@ -20,7 +20,13 @@ const navigate = useNavigate();
         <br />
       </div>
       <div className="position-fixed  bottom-20  end-0 m-3">
-        <button onClick={()=>navigate("/chatbot")} className="btn btn-primary btn-lg shadow p-3 rounded-circle">
+        <button onClick={()=>{
+          
+          window.open('https://chatgpt.com/');
+
+
+
+        }} className="btn btn-primary btn-lg shadow p-3 rounded-circle">
           <FontAwesomeIcon icon={faRobot} size="2x" />
         </button>
       </div>

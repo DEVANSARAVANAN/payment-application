@@ -1,0 +1,38 @@
+.card-body {
+    position: relative;
+    padding-bottom: 60px; /* Make space for the input box */
+  }
+  
+  .chat-box {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column-reverse; /* Reverse the order of messages */
+  }
+  
+  .message {
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+  }
+  
+  .message.user {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+  }
+  
+  .message.bot {
+    background-color: #f8d7da;
+    align-self: flex-start;
+  }
+  
+  .input-form {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+  }

@@ -237,7 +237,7 @@
 
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home'; 
 import Settings from './components/settings';
@@ -252,11 +252,15 @@ import ChatbotPage from './components/chatbot';
 import Pay from './components/pay';
 import PayContact from './components/payContact';
 import Dashboard from './components/dashboard';
+import Signup from './components/signup';
+import Auth from './components/auth';
 
 function App() {
   return (
-    <Router>
+    <div>
+    <BrowserRouter>
       <Routes>
+      <Route path="/" element={<LandingPage/>} />
         <Route path="/home" element={<Home />} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/profile" element={<Profile />} />
@@ -266,6 +270,8 @@ function App() {
         <Route path="/payContact" element={<PayContact/>} />
         <Route path="/notification" element={<Notifications/>} />
         <Route path="/dashboard" element={<Dashboard/>} />
+        <Route path='/auth' element={<Auth/>} />
+        <Route path="/signup" element={<Signup/>} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/setLimit" element={<SetLimit />} />
         <Route path="/analytics" element={<AnalyticalPage/>} />
@@ -273,7 +279,8 @@ function App() {
 
         
       </Routes>
-    </Router>
+    </BrowserRouter>
+    </div>
   );
 }
 
