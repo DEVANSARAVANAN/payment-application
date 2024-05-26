@@ -11,7 +11,7 @@ function Navigation() {
 
   return (
     <div className="navbar fixed-bottom bg-light">
-      <div className="container-fluid d-flex justify-content-around">
+      <div className="container-fluid  d-flex justify-content-around">
         <button className="btn btn-primary rounded-circle shadow" onClick={() => navigate('/profile')}>
           <FontAwesomeIcon icon={faUser} />
         </button>

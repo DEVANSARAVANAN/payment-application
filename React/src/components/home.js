@@ -16,7 +16,7 @@ const navigate = useNavigate();
   return (
     <>
       <div><Navigation/></div>
-      <div className="container mt-5">
+      <div className="container  mt-5">
         <div>
         <Dashboard/>
 <AnalyticalPage/></div>

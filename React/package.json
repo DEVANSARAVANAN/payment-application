@@ -16,15 +16,16 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.2",
     "bootstrap": "^5.3.3",
-    "faker": "^6.6.6",
+    "faker": "^5.5.3",
     "firebase": "^10.12.1",
     "jquery": "^3.7.1",
     "jwt-decode": "^4.0.0",
     "qrcode.react": "^3.1.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-minimal-pie-chart": "^8.4.0",
     "react-router-dom": "^6.23.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

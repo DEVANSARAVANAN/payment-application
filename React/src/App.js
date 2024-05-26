@@ -256,6 +256,8 @@ import Signup from './components/signup';
 import Auth from './components/auth';
 import ChoosePayment from './components/chooseCard';
 import Success from './components/success';
+import { PieChart } from '@mui/x-charts/PieChart';
+// import Chart from './components/Chart';
 
 function App() {
   return (
@@ -266,6 +268,8 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/success" element={<Success/>} />
         <Route path="/settings" element={<Settings />} />
+        {/* <Route path="/piechart" element={<Chart />} /> */}
+
         <Route path="/profile" element={<Profile />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/navbar" element={<Navigation/>} />

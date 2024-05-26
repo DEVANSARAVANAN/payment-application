@@ -1,251 +1,61 @@
-// // import React from 'react';
-// // import 'bootstrap/dist/css/bootstrap.min.css';
-// // function LandingPage() {
-// //   return (
-// //     <div className="landing-page">
-// //       <header className="header">
-// //         <div className="container">
-// //           <h1 className="app-name">Your Payment App</h1>
-// //           <p className="slogan">Making payments easier than ever</p>
-// //         </div>
-// //       </header>
-// //       <section className="features">
-// //         <div className="container">
-// //           <h2>Key Features</h2>
-// //           <ul>
-// //             <li>Secure Payments</li>
-// //             <li>Easy to Use Interface</li>
-// //             <li>24/7 Customer Support</li>
-// //             {/* Add more features as needed */}
-// //           </ul>
-// //         </div>
-// //       </section>
-// //       <section className="cta">
-// //         <div className="container">
-// //           <h2>Get Started Today!</h2>
-// //           <button className="btn btn-primary">Sign Up</button>
-// //           <button className="btn btn-secondary">Learn More</button>
-// //         </div>
-// //       </section>
-// //       <footer className="footer">
-// //         <div className="container">
-// //           <p>&copy; 2024 Your Payment App. All rights reserved.</p>
-// //         </div>
-// //       </footer>
-// //     </div>
-// //   );
-// // }
-
-// // export default LandingPage;
-
-
-
-
-
-// // // // import React from 'react';
-// // // // import 'bootstrap/dist/css/bootstrap.min.css';
-
-// // // // function LandingPage() {
-// // // //   return (
-// // // //     <div className="landing-page">
-// // // //       <header className="header text-center py-5">
-// // // //         <div className="container">
-// // // //           <h1 className="app-name">Your Payment App</h1>
-// // // //           <p className="slogan">Making payments easier than ever</p>
-// // // //         </div>
-// // // //       </header>
-// // // //       <section className="features py-5">
-// // // //         <div className="container">
-// // // //           <h2 className="text-center mb-4">Key Features</h2>
-// // // //           <div className="row">
-// // // //             <div className="col-md-4 mb-3">
-// // // //               <ul className="list-unstyled">
-// // // //                 <li>Secure Payments</li>
-// // // //                 <li>Easy to Use Interface</li>
-// // // //                 <li>24/7 Customer Support</li>
-// // // //                 {/* Add more features as needed */}
-// // // //               </ul>
-// // // //             </div>
-// // // //           </div>
-// // // //         </div>
-// // // //       </section>
-// // // //       <section className="cta bg-light py-5">
-// // // //         <div className="container">
-// // // //           <h2 className="text-center mb-4">Get Started Today!</h2>
-// // // //           <div className="text-center">
-// // // //             <button className="btn btn-primary mr-3">Sign Up</button>
-// // // //             <button className="btn btn-secondary">Learn More</button>
-// // // //           </div>
-// // // //         </div>
-// // // //       </section>
-// // // //       <footer className="footer py-4">
-// // // //         <div className="container">
-// // // //           <p className="text-center">&copy; 2024 Your Payment App. All rights reserved.</p>
-// // // //         </div>
-// // // //       </footer>
-// // // //     </div>
-// // // //   );
-// // // // }
-
-// // // // export default LandingPage;
-
-
-
-
-
-
-
-// // // import React from 'react';
-// // // import 'bootstrap/dist/css/bootstrap.min.css';
-
-// // // function LandingPage() {
-// // //   return (
-// // //     <div className="landing-page">
-// // //       <header className="header text-center py-5">
-// // //         <div className="container">
-// // //           <h1 className="app-name">Your Payment App</h1>
-// // //           <p className="slogan">Making payments easier than ever</p>
-// // //         </div>
-// // //       </header>
-// // //       <section className="features py-5">
-// // //         <div className="container">
-// // //           <h2 className="text-center mb-4">Key Features</h2>
-// // //           <div className="row">
-// // //             <div className="col-md-4">
-// // //               <ul className="list-unstyled">
-// // //                 <li>Secure Payments</li>
-// // //                 <li>Easy to Use Interface</li>
-// // //                 <li>24/7 Customer Support</li>
-// // //                 {/* Add more features as needed */}
-// // //               </ul>
-// // //             </div>
-// // //           </div>
-// // //         </div>
-// // //       </section>
-// // //       <section className="cta bg-light py-5">
-// // //         <div className="container">
-// // //           <h2 className="text-center mb-4">Get Started Today!</h2>
-// // //           <div className="text-center">
-// // //             <button className="btn btn-primary mr-3">Sign Up</button>
-// // //             <button className="btn btn-secondary">Learn More</button>
-// // //           </div>
-// // //         </div>
-// // //       </section>
-// // //       <footer className="footer py-4">
-// // //         <div className="container">
-// // //           <p className="text-center">&copy; 2024 Your Payment App. All rights reserved.</p>
-// // //         </div>
-// // //       </footer>
-// // //     </div>
-// // //   );
-// // // }
-
-// // // export default LandingPage;
-
-
-
-
-
-
-// import React from 'react';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-
-// function LandingPage() {
-//   return (
-//     <div className="landing-page">
-//       <header className="header text-center py-5">
-//         <div className="container">
-//           <h1 className="app-name">EasyPay</h1>
-//           <p className="slogan">Simplify Your Payments</p>
-//         </div>
-//       </header>
-//       <section className="features py-5 bg-light">
-//         <div className="container">
-//           <h2 className="text-center mb-4">Key Features</h2>
-//           <div className="row">
-//             <div className="col-md-4">
-//               <ul className="list-unstyled">
-//                 <li>Secure Payments</li>
-//                 <li>Fast Transactions</li>
-//                 <li>24/7 Customer Support</li>
-//                 {/* Add more features as needed */}
-//               </ul>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//       <section className="cta text-center py-5">
-//         <div className="container">
-//           <h2 className="mb-4">Get Started Today!</h2>
-//           <button className="btn btn-primary mr-3">Sign Up</button>
-//           <button className="btn btn-secondary">Learn More</button>
-//         </div>
-//       </section>
-//       <footer className="footer py-4">
-//         <div className="container text-center">
-//           <p>&copy; 2024 EasyPay. All rights reserved.</p>
-//         </div>
-//       </footer>
-//     </div>
-//   );
-// }
-
-// export default LandingPage;
-
-
-
-
-
-
-
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLock, faRocket, faPiggyBank, faRobot } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
-
 function LandingPage() {
+  const navigate = useNavigate();
 
-  const navigate=useNavigate();
-  
   return (
-
-<>
-    <div className="landing-page">
-      <header className="header text-center py-5">
-        <div className="container">
-          <h1 className="app-name">EasyPay</h1>
-          <p className="slogan">Simplify Your Payments</p>
-        </div>
-      </header>
-      <section className="features py-5 bg-light">
-        <div className="container">
-          <h2 className="text-center mb-4">Key Features</h2>
-          <div className="row justify-content-center">
-            <div className="col-md-4">
-              <ul className="list-unstyled text-center">
-                <li>Secure Payments</li>
-                <li>Fast Transactions</li>
-                <li>24/7 Customer Support</li>
-                {/* Add more features as needed */}
-              </ul>
+    <>
+      <div className="landing-page">
+        <header className="bg-cover bg-center text-white py-20" style={{ backgroundImage: 'url("https://source.unsplash.com/1600x900/?finance")' }}>
+          <div className="container mx-auto text-center">
+            <h1 className="text-5xl font-bold">EasyPay</h1>
+            <p className="text-xl mt-4">Simplify Your Payments</p>
+          </div>
+        </header>
+        <section className="py-10 bg-gray-100">
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-semibold mb-6">Key Features</h2>
+            <div className="flex flex-wrap justify-center">
+              <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                <div className="bg-white p-6 rounded-lg shadow-lg">
+                  <FontAwesomeIcon icon={faLock} className="text-primary text-4xl mb-4" />
+                  <h5 className="text-xl font-bold">Secure Payments</h5>
+                  <p className="text-gray-600 mt-2">Ensuring your transactions are safe and secure.</p>
+                </div>
+              </div>
+              <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                <div className="bg-white p-6 rounded-lg shadow-lg">
+                  <FontAwesomeIcon icon={faPiggyBank} className="text-yellow-500 text-4xl mb-4" />
+                  <h5 className="text-xl font-bold">Financial Goals</h5>
+                  <p className="text-gray-600 mt-2">Set and track your financial goals easily.</p>
+                </div>
+              </div>
+              <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-4 mb-8">
+                <div className="bg-white p-6 rounded-lg shadow-lg">
+                  <FontAwesomeIcon icon={faRobot} className="text-blue-500 text-4xl mb-4" />
+                  <h5 className="text-xl font-bold">Personal Assistant Bot</h5>
+                  <p className="text-gray-600 mt-2">Get assistance with your payments from our AI bot.</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="cta text-center py-5">
-        <div className="container">
-          <h2 className="mb-4">Get Started Today!</h2>
-          <button className="btn btn-primary mr-3" onClick={()=>{navigate("/auth")}}>Continue</button>
-        </div>
-      </section>
-      <footer className="footer py-4">
-        <div className="container text-center">
-          <p>&copy; 2024 EasyPay. All rights reserved.</p>
-        </div>
-      </footer>
-    </div>
-</>
+        </section>
+        <section className="py-10 bg-gradient-to-r from-blue-500 to-purple-600 text-white">
+          <div className="container mx-auto text-center">
+            <h2 className="text-3xl font-semibold mb-6">Get Started Today!</h2>
+            <button className="btn btn-primary btn-lg shadow" onClick={() => navigate("/auth")}>Continue</button>
+          </div>
+        </section>
+        <footer className="py-4 bg-gray-800 text-white text-center">
+          <div className="container mx-auto">
+            <p>&copy; 2024 EasyPay. All rights reserved.</p>
+          </div>
+        </footer>
+      </div>
+    </>
   );
 }
 
