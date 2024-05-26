@@ -5,6 +5,7 @@ import AnalyticalPage from './analytics';
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import { faComments, faRobot } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
+import Dashboard from './dashboard';
 
 function Home() {
 
@@ -16,7 +17,9 @@ const navigate = useNavigate();
     <>
       <div><Navigation/></div>
       <div className="container mt-5">
-        <div><AnalyticalPage/></div>
+        <div>
+        <Dashboard/>
+<AnalyticalPage/></div>
         <br />
       </div>
       <div className="position-fixed  bottom-20  end-0 m-3">

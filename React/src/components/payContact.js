@@ -18,7 +18,7 @@ function PayContact() {
           <div className="form-group mb-3">
             <input type="number" className="form-control" id="amount" placeholder="Enter amount" />
           </div>
-          <button type="submit" className="btn btn-primary w-100">Send Money</button>
+          <button type="submit" className="btn btn-primary w-100" onClick={() => navigate("/success")} >Send Money</button>
         </form>
         <br />
         <button className="btn btn-link text-decoration-none mb-4" onClick={() => navigate("/pay")}>

@@ -254,6 +254,8 @@ import PayContact from './components/payContact';
 import Dashboard from './components/dashboard';
 import Signup from './components/signup';
 import Auth from './components/auth';
+import ChoosePayment from './components/chooseCard';
+import Success from './components/success';
 
 function App() {
   return (
@@ -262,6 +264,7 @@ function App() {
       <Routes>
       <Route path="/" element={<LandingPage/>} />
         <Route path="/home" element={<Home />} />
+        <Route path="/success" element={<Success/>} />
         <Route path="/settings" element={<Settings />} />
         <Route path="/profile" element={<Profile />} />
         <Route path="/payment" element={<Payment />} />
@@ -272,6 +275,7 @@ function App() {
         <Route path="/dashboard" element={<Dashboard/>} />
         <Route path='/auth' element={<Auth/>} />
         <Route path="/signup" element={<Signup/>} />
+        <Route path="/chooseCard" element={<ChoosePayment/>} />
         <Route path="/landing" element={<LandingPage />} />
         <Route path="/setLimit" element={<SetLimit />} />
         <Route path="/analytics" element={<AnalyticalPage/>} />

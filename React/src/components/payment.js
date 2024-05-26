@@ -2,17 +2,22 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { useState } from 'react';
 // import { Navigate } from 'react-router-dom';
 import Navigation from './navbar';
+import { useNavigate } from 'react-router-dom';
 
 function Payment() {
+
+  const navigate=useNavigate();
+
+
   const [cardNumber, setCardNumber] = useState('');
   const [expiryDate, setExpiryDate] = useState('');
   const [cvv, setCvv] = useState('');
   const [amount, setAmount] = useState('');
 
-  const handlePayment = () => {
-    // Implement payment logic here
-    console.log('Payment processed successfully!');
-  };
+  // const handlePayment = () => {
+  //   // Implement payment logic here
+  //   console.log('Payment processed successfully!');
+  // };
 
   return (
 <>
@@ -65,7 +70,8 @@ function Payment() {
                   onChange={(e) => setAmount(e.target.value)}
                 />
               </div>
-              <button className="btn btn-primary" onClick={handlePayment}>Pay Now</button>
+              <button className="btn btn-primary"     onClick={() => navigate("/success")}
+>Pay Now</button>
             </div>
           </div>
         </div>

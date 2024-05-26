@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 function Pay() {
     const navigate = useNavigate()
     function handlePay(){
-        navigate("/payContact")
+        navigate("/chooseCard")
     }
 
   return (
