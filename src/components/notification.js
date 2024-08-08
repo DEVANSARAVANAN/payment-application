@@ -14,21 +14,21 @@ function Notifications() {
             </div>
             <div className="card-body">
               <div className="list-group">
-                <a href="#" className="list-group-item list-group-item-action">
+                <a href="https://chatgpt.com/" className="list-group-item list-group-item-action">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">Payment Successful</h5>
                     <small>1 min ago</small>
                   </div>
                   <p className="mb-1">Your payment of 100 Rupees was successful.</p>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action">
+                <a href="https://chatgpt.com/" className="list-group-item list-group-item-action">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">Payment Failed</h5>
                     <small>5 mins ago</small>
                   </div>
                   <p className="mb-1">Your payment of 50 Rupees failed. Please try again.</p>
                 </a>
-                <a href="#" className="list-group-item list-group-item-action">
+                <a href="https://chatgpt.com/" className="list-group-item list-group-item-action">
                   <div className="d-flex w-100 justify-content-between">
                     <h5 className="mb-1">New Message</h5>
                     <small>1 hour ago</small>
