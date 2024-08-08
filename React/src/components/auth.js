@@ -12,7 +12,9 @@ const Auth = () => {
     signInWithPopup(auth, provider).then((data) => {
       localStorage.setItem("email", data.user.email);
       localStorage.setItem("uid", data.user.uid);
+      setUid(data.user.uid)
       setRedirect(true);
+      console.log(uid)
     });
   };
 

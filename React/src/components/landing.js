@@ -1,6 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLock, faRocket, faPiggyBank, faRobot } from '@fortawesome/free-solid-svg-icons';
+import { faLock, faPiggyBank, faRobot } from '@fortawesome/free-solid-svg-icons';
+// faRocket
 import { useNavigate } from 'react-router-dom';
 
 function LandingPage() {

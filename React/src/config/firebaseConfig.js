@@ -2,8 +2,8 @@ import firebase from "firebase/compat/app";
 import "firebase/compat/firestore";
 import {initializeApp} from 'firebase/app';
 import {getAuth,GoogleAuthProvider} from 'firebase/auth';
-import { useEffect } from "react";
-import { onAuthStateChanged } from 'firebase/auth';
+// import { useEffect } from "react";
+// import { onAuthStateChanged } from 'firebase/auth';
 
 
 

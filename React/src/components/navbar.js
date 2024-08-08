@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faMoneyBillAlt, faBell, faBars,faCog ,faHome } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faMoneyBillAlt, faBell,faCog ,faHome } from '@fortawesome/free-solid-svg-icons';
+// faBars
 import './Navigation.css'; // Import custom CSS file for additional styling
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';

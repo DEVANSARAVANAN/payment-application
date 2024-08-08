@@ -81,7 +81,7 @@
 import React from 'react';
 import Navigation from './navbar';
 import SetLimit from './setLimit';
-import Profile from './profilepage';
+// import Profile from './profilepage';
 
 function Settings() {
   return (

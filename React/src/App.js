@@ -237,7 +237,7 @@
 
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/home'; 
 import Settings from './components/settings';
@@ -256,7 +256,7 @@ import Signup from './components/signup';
 import Auth from './components/auth';
 import ChoosePayment from './components/chooseCard';
 import Success from './components/success';
-import { PieChart } from '@mui/x-charts/PieChart';
+// import { PieChart } from '@mui/x-charts/PieChart';
 // import Chart from './components/Chart';
 
 function App() {

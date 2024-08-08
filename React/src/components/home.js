@@ -3,13 +3,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from './navbar';
 import AnalyticalPage from './analytics';
 import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
-import { faComments, faRobot } from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from 'react-router-dom';
+import {  faRobot } from '@fortawesome/free-solid-svg-icons';
+// faComments
+// import { useNavigate } from 'react-router-dom';
 import Dashboard from './dashboard';
 
 function Home() {
 
-const navigate = useNavigate();
+// const navigate = useNavigate();
 
 
   
