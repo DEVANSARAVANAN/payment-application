@@ -26,7 +26,7 @@ function Home() {
       <div className="position-fixed  bottom-20  end-0 m-3">
         <button onClick={()=>{
           
-          window.open('https://chatgpt.com/');
+          window.open('http://localhost:8501/');
 
 
 
